@@ -18,6 +18,7 @@
     <body>
        
         <h1>Su factura</h1>
+        <h2>CALI CAMPEON</h2>
         <table border="1">
             <thead>
                 <tr>
@@ -31,7 +32,7 @@
                     <th>Diasadicionales</th>
                     <th>Valoralquiler</th>
                     <th>valordiasdicionales</th>
-                    <th>Descuentos</th>
+                    <th>CaliCampeon</th>
                     <th>ValorDomicilio</th>
                     <th>Total a pagar</th>
                 </tr>
