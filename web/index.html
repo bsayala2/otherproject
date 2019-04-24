@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>ALQUIPC</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Bienvenido estimado cliente a ALQUIPC</h1>
+        <div>DIGITE TODOS LOS DATOS SON OBLIGATORIOS</div>
+        <form action="Proceso" method="POST">
+            <div>
+      Ingrese su nombre:<input type="text" name="nombre">
+            </div>
+            <div>
+      Ingrese su Id o Cedula:<input type="text" name="id">
+            </div>
+             <div>
+      Ingrese su Telefono:<input type="number" name="telefono">
+            </div>
+             <div>
+      Ingrese su email:<input type="email" name="email">
+            </div>
+            <div>
+               Tipo de Servicio: <select name="servicio">
+                    <option>Dentro de la ciudad</option>
+                    <option>Fuera de la ciudad</option>
+                    <option>Dentro del establecimiento</option>
+                </select>
+            </div>
+            <div>
+                Numero de equipos a alquilar(Minimo 2):<input type="number" name="numeroequipos">
+            </div>
+            <div>
+                Numero de dias a alquilar:<input type="number" name="numerodias">
+            </div>
+            <div>
+                Numero de dias adicionales:<input type="number" name="diasadicionales">
+            </div>
+            <button>GENERAR FACTURA</button>
+    </form>
+    </body>
+</html>
